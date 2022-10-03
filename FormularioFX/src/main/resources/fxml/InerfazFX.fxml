@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Button layoutX="425.0" layoutY="247.0" mnemonicParsing="false" onAction="#btn4" prefHeight="49.0" prefWidth="117.0" text="Ingresos">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="425.0" layoutY="176.0" mnemonicParsing="false" onAction="#btn3" prefHeight="49.0" prefWidth="117.0" text="Buscar">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="425.0" layoutY="102.0" mnemonicParsing="false" onAction="#btn2" prefHeight="49.0" prefWidth="117.0" text="Limpiar">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="425.0" layoutY="313.0" mnemonicParsing="false" onAction="#btn5" prefHeight="49.0" prefWidth="117.0" text="Salir">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <TextField layoutX="151.0" layoutY="45.0" onAction="#tf1" prefHeight="25.0" prefWidth="228.0" />
+            <TextField layoutX="151.0" layoutY="188.0" onAction="#tf3" prefHeight="25.0" prefWidth="228.0" />
+            <Label layoutX="30.0" layoutY="49.0" prefHeight="17.0" prefWidth="84.0" text="Usuario" />
+            <Label layoutX="30.0" layoutY="123.0" prefHeight="17.0" prefWidth="84.0" text="Contaseña" />
+            <Label layoutX="30.0" layoutY="192.0" prefHeight="17.0" prefWidth="84.0" text="Descuento" />
+            <PasswordField layoutX="151.0" layoutY="119.0" onAction="#tf2" prefHeight="25.0" prefWidth="228.0" />
+            <CheckBox layoutX="273.0" layoutY="263.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="54.0" text="Sí" />
+            <CheckBox layoutX="273.0" layoutY="296.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="54.0" text="No" />
+            <Label layoutX="90.0" layoutY="263.0" prefHeight="17.0" prefWidth="162.0" text="¿Cliente Premium?" />
+            <Button layoutX="425.0" layoutY="33.0" mnemonicParsing="false" onAction="#btn1" prefHeight="49.0" prefWidth="117.0" text="Añadir">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
